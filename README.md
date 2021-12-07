@@ -1,7 +1,9 @@
 # chromosome-specific_KASPs
 
 ###index genome for mapping
+'''
 bwa index iwgsc_refseqv1.0_all_chromosomes/161010_Chinese_Spring_v1.0_pseudomolecules.fasta
+'''
 
 ###map paired-end reads to genome and filter
 bwa mem -t 8 -M iwgsc_refseqv1.0_all_chromosomes/161010_Chinese_Spring_v1.0_pseudomolecules.fasta muticum_reads_1.fq muticum_reads_2.fq | awk '$1 ~ /^@/ || $2 == 65 || $2 == 129 || $2 == 67 || $2 == 131 || $2 == 113 || $2 == 177 || $2 == 81 || $2 == 161 || $2 == 163 || $2 == 83 || $2 == 97 || $2 == 145 || $2 == 99 || $2 == 147 || $2 == 137 || $2 == 73 {print $0}' | > muticum.sam
