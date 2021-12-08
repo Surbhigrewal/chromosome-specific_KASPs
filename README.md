@@ -3,7 +3,7 @@
 ## subline
 
 
-###index genome for mapping
+### index genome for mapping
 
 ```
 bwa index iwgsc_refseqv1.0_all_chromosomes/161010_Chinese_Spring_v1.0_pseudomolecules.fasta
