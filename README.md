@@ -1,6 +1,6 @@
 # Pipeline for chromosome-specific_KASPs
 
-This _de novo_ SNP discovery and filtration pipeline was established by Anthony Hall's group at Earlham Institute and has been used to produce chromosome-specific KASP assays between hexaploid wheat and wild relative species _Amblyopyrum muticum_ (Grewal et al. 2021).
+This _de novo_ SNP discovery and filtration pipeline was established by Prof Anthony Hall's group at Earlham Institute and has been used to produce chromosome-specific KASP assays between hexaploid wheat and wild relative species _Amblyopyrum muticum_ (Grewal et al. 2021).
 
 A novel approach to develop wheat chromosome-specific KASP markers for detecting Amblyopyrum muticum segments in doubled haploid introgression lines
 Surbhi Grewal, Benedict Coombes, Ryan Joynson, Anthony Hall, John Fellers, Cai-yun Yang, Duncan Scholefield, Stephen Ashling, Peter Isaac, Ian P. King, Julie King
