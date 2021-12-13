@@ -80,7 +80,7 @@ java -jar -Xmx10g GenomeAnalysisTK.jar -R iwgsc_refseqv1.0_all_chromosomes/16101
 ### remove INDELs
 
 ```
-grep -v "INDEL" muticum_vfalleleINDELcalls.vcf | grep -v "^#" > muticum_vfallelecalls_filt_flanking_snps.vcf
+grep -v "INDEL" muticum_vfalleleINDELcalls.vcf | grep -v "^#" > muticum_vfallelecalls.vcf
 ```
 
 ## 6. Keep SNPs suitable for KASP assay design
