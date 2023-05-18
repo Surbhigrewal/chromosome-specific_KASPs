@@ -131,5 +131,5 @@ sed 's/-/\.\*/' muticum_vfallelecalls_filt_flanking_snps_PASS_homo_single_copy_i
 ### produce SNP file with ref and alt alleles in square brackets
 
 ```
-python3 produce_final_KASP_file.py muticum_vfallelecalls_filt_flanking_snps_PASS_homo.fasta muticum_vfallelecalls_filt_flanking_snps_PASS_homo.fasta muticum_vfallelecalls_filt_flanking_snps_PASS_homo_single_copy_id.txt
+python3 produce_final_KASP_file.py muticum_vfallelecalls_filt_flanking_snps_PASS_homo.fasta muticum_vfallelecalls_filt_flanking_snps_PASS_homo.vcf muticum_vfallelecalls_filt_flanking_snps_PASS_homo_single_copy_id.txt
 ```
